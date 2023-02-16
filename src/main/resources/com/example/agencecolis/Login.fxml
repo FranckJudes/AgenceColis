@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.agencecolis.loginController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="304.0" style="-fx-background-color: #0D1824;">
+         <children>
+            <Label layoutX="90.0" layoutY="95.0" prefHeight="44.0" prefWidth="140.0" text="Agence" textFill="WHITE">
+               <font>
+                  <Font name="Quicksand Light" size="33.0" />
+               </font>
+            </Label>
+            <Label layoutX="125.0" layoutY="147.0" text="de" textFill="WHITE">
+               <font>
+                  <Font name="Quicksand Light" size="33.0" />
+               </font>
+            </Label>
+            <Label layoutX="93.0" layoutY="200.0" prefHeight="43.0" prefWidth="103.0" text=" Colis" textFill="WHITE">
+               <font>
+                  <Font name="Quicksand Light" size="33.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="363.0" layoutY="42.0" prefHeight="44.0" prefWidth="190.0" text="CONNEXION">
+         <font>
+            <Font name="Quicksand Medium" size="32.0" />
+         </font>
+      </Label>
+      <Button layoutX="376.0" layoutY="292.0" mnemonicParsing="false" onAction="#login" prefHeight="51.0" prefWidth="171.0" style="-fx-background-color: #0D1824;" text="LOGIN" textFill="WHITE">
+         <font>
+            <Font name="NimbusSansNarrow-Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="363.0" layoutY="123.0" text="Nom d'utilisateur :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="363.0" layoutY="192.0" text="Mot de passe :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="user" layoutX="370.0" layoutY="149.0" />
+      <TextField fx:id="password" layoutX="370.0" layoutY="226.0" />
+   </children>
+</AnchorPane>
